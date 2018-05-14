@@ -43,6 +43,9 @@ function frameIt(){
         alert("G pressed");
         
       }
+      else{
+        return false;
+      }
       
     });
     
