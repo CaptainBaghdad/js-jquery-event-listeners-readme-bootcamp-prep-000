@@ -38,7 +38,8 @@ function frameIt(){
   function pressIt(){
     $(document).on('keypress', function(k){
       
-      if(k.which ===){
+      if(k.which === 103){
+        alert("G pressed");
         
       }
       
