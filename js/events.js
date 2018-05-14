@@ -30,7 +30,7 @@ function frameIt(){
   
   function submitIt(){
     $('form').on('submit', function(){
-      window.alert("Your form is going to be submitted now.");
+      alert("Your form is going to be submitted now.");
       
     });
     
