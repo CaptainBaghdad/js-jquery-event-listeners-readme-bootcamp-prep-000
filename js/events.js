@@ -17,12 +17,12 @@ function getIt(){
     
   });
   
-  function frameIt(){
+  
+}
+
+function frameIt(){
     $('img').on('load', function(){
       $('img').addClass('tasty');
     });
     
   }
-
-  
-}
