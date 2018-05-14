@@ -19,7 +19,7 @@ function getIt(){
   
   function frameIt(){
     $('img').bind('load', function(){
-      $()
+      $('img').addClass('tasty');
     });
     
   }
