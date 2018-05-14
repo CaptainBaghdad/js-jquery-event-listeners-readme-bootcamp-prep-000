@@ -34,3 +34,15 @@ function frameIt(){
     });
     
   }
+  
+  function pressIt(){
+    $(document).on('keypress', function(k){
+      
+      if(k.which ===){
+        
+      }
+      
+    });
+    
+    
+  }
