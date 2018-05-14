@@ -26,3 +26,11 @@ function frameIt(){
     });
     
   }
+  
+  function submitIt(){
+    $('form').on('click', function(){
+      $('form').alert();
+      
+    });
+    
+  }
