@@ -30,7 +30,7 @@ function frameIt(){
   
   function submitIt(){
     $('form').on('submit', function(){
-      $('form').alert("Your form is going to be submitted now.");
+      window.alert("Your form is going to be submitted now.");
       
     });
     
@@ -40,7 +40,7 @@ function frameIt(){
     $(document).on('keypress', function(k){
       
       if(k.which === 103){
-        alert("G pressed");
+        window.alert("G pressed");
         
       }
       else{
