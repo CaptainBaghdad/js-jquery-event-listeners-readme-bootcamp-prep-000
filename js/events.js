@@ -16,6 +16,13 @@ function getIt(){
   alert('Hey!');  
     
   });
+  
+  function frameIt(){
+    $('img').bind('load', function(){
+      $()
+    });
+    
+  }
 
   
 }
