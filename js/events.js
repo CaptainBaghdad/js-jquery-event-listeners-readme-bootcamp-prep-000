@@ -28,7 +28,7 @@ function frameIt(){
   }
   
   function submitIt(){
-    $('form').on('click', function(){
+    $('form').on('submit', function(){
       $('form').alert("Your form is going to be submitted now.");
       
     });
