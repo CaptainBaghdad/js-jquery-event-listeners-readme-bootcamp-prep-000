@@ -40,7 +40,7 @@ function frameIt(){
     $('input').on('keydown', function(k){
       
       if(k.which === 103){
-        window.alert("G pressed");
+        alert("G pressed");
         
       }
       else{
